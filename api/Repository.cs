@@ -7,6 +7,8 @@ namespace Safi
         {
             void resume();
         }
+        
+        private Dictionary<string, string> _path = new Dictionary<string, string>();
 
         public Repository()
         {
@@ -29,16 +31,63 @@ namespace Safi
                 }
 
             }
+        }// contructor
+        
+      
+        public void get(string command) 
+       {     string specs_file ;
+            if (_path.ContainsKey(command))  
+                {
+                specs_file=_path[command];
+                    using (StreamReader r = new StreamReader(specs_file))
+                     {
+                        string json = r.ReadToEnd();
+                        //source = JsonSerializer.Deserialize<List<Person>>(json);
+                        Root routine = JsonConvert.DeserializeObject<Root>(json);
+                     }
 
-            string public resume
+                }
 
 
+           
 
-
-
-
+            
+            
         }
-        private Dictionary<string, string> _path = new Dictionary<string, string>();
+
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+        public class Detail
+        {
+            public string routine { get; set; }
+            public string output { get; set; }
+            public List<Parameter> parameters { get; set; }
+        }
+
+        public class Parameter
+        {
+            public int order { get; set; }
+            public string name { get; set; }
+            public string type { get; set; }
+            public string @default { get; set; }
+            public bool required { get; set; }
+        }
+
+        public class Root
+        {
+            public string command { get; set; }
+            public Detail detail { get; set; }
+        }
+
+
+
+
+
+
+
+    } // class repository
+
+
+
 
 
 
