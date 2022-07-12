@@ -1,0 +1,16 @@
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/api
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/api.deps.json
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/api.runtimeconfig.json
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/api.dll
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/api.pdb
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.csproj.AssemblyReference.cache
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.AssemblyInfoInputs.cache
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.AssemblyInfo.cs
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.csproj.CoreCompileInputs.cache
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.dll
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/refint/api.dll
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.pdb
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/api.genruntimeconfig.cache
+/Users/vladimir/Projects/api/api/obj/Debug/net6.0/ref/api.dll
+/Users/vladimir/Projects/api/api/bin/Debug/net6.0/data/client/resume.json

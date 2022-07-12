@@ -1,0 +1,38 @@
+﻿{ "command": "resume",
+  "detail": {
+    "routine": "CLIENTESCON",
+    "output": "row",
+    "parameters": [
+      {
+        "order": "1",
+        "name": "ClienteID",
+        "type": "int",
+        "default": "0",
+        "required": "True"
+      },
+      {
+        "order": "2",
+        "name": "RFC",
+        "type": "varchar",
+        "default": "",
+        "required": "True"
+      },
+      {
+        "order": "3",
+        "name": "CURP",
+        "type": "int",
+        "default": "0",
+        "required": "True"
+      },
+
+      {
+        "order": "3",
+        "name": "NumCon",
+        "type": "int",
+        "default": "1",
+        "required": "True"
+      }
+
+    ]
+  }
+}
